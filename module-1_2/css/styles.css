@@ -1,0 +1,10 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px
+    
+}
+.menu {
+    font-size: 13px;
+    color: #03a9f4
+    list-style: none;
+}

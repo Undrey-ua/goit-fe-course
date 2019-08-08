@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+  }
+  body {
+    font-family:"Playfair Display", serif;
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+  }
+  *, 
+  *::before, 
+  *::after {
+    box-sizing: inherit;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 900px;
+    margin: auto;
+  }
+  .menu {
+    width: 900px;
+  margin: auto;
+  }
+  .menu-list {
+    height: 190px;
+  margin: 0;
+  padding: 0;
+  padding-top: 65px;
+  padding-bottom: 100px;
+  }
+  .menu-list li {
+    color: rgb(98, 98, 98);
+    list-style: none;
+    display: inline-block;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  .lifestyle {
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    margin-left: 150px;
+  }
+  .photodiary {
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    margin-left: 120px;
+  }
+  .music {
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    margin-left: 105px;
+  }
+  .travel {
+    color: rgb(98, 98, 98);
+    text-decoration: none;
+    margin-left: 105px;
+    margin-right: 150px;
+  }
+  .menu-list li :hover,
+.menu-list li :focus {
+  color: rgb(3, 169, 244);
+}
+.section {
+  list-style: none;
+  padding: 0;
+  font-size: 0;
+  margin-bottom: 53px;
+}
+.section-item {
+  font-size: 14px;
+  width: 421px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin-right: 58px;
+  margin-bottom: 130px;
+}
+.section-item:nth-child(2n) {
+  margin-right: 0;
+}
+.section-item:nth-last-child(-n +2) {
+  margin-bottom: 30px;
+}
+.section-image {
+  margin-bottom: 31px;
+}
+.section-image-title {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 17px;
+  margin-bottom: 31px;
+}
+.section-text-sign {
+  font-family: "PlayfairDisplay Regular";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 37px;
+}
+.section-text-sign-two {
+  font-family: "MYRIADPRO-REGULAR", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 37px;
+}
+.section-content {
+  line-height: 24px;
+}
+.button-load {
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  margin-left: 350px;
+  margin-bottom: 91px;
+  border: 1px solid rgb(111, 111, 111);
+  background-color: rgb(255, 255, 255);
+  padding: 20px 33px 20px 37px;
+  cursor: pointer;
+}
