@@ -1,65 +1,64 @@
 html {
-    box-sizing: border-box;
-  }
-  body {
-    font-family:"Playfair Display", serif;
-    font-size: 14px;
-    color: rgb(98, 98, 98);
-  }
-  *, 
-  *::before, 
-  *::after {
-    box-sizing: inherit;
-  }
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  .container {
-    width: 900px;
-    margin: auto;
-  }
-  .menu {
-    width: 900px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 900px;
   margin: auto;
-  }
-  .menu-list {
-    height: 190px;
+}
+.menu {
+  width: 900px;
+  margin: auto;
+}
+.menu-list {
+  height: 190px;
   margin: 0;
   padding: 0;
   padding-top: 65px;
   padding-bottom: 100px;
-  }
-  .menu-list li {
-    color: rgb(98, 98, 98);
-    list-style: none;
-    display: inline-block;
-    line-height: 24px;
-    text-transform: uppercase;
-  }
-  .lifestyle {
-    color: rgb(98, 98, 98);
-    text-decoration: none;
-    margin-left: 150px;
-  }
-  .photodiary {
-    color: rgb(98, 98, 98);
-    text-decoration: none;
-    margin-left: 120px;
-  }
-  .music {
-    color: rgb(98, 98, 98);
-    text-decoration: none;
-    margin-left: 105px;
-  }
-  .travel {
-    color: rgb(98, 98, 98);
-    text-decoration: none;
-    margin-left: 105px;
-    margin-right: 150px;
-  }
-  .menu-list li :hover,
+}
+.menu-list li {
+  color: rgb(98, 98, 98);
+  list-style: none;
+  display: inline-block;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.lifestyle,
+.photodiary,
+.music,
+.travel {
+  text-decoration: none;
+  color: rgb(98, 98, 98);
+}
+.lifestyle {
+  margin-left: 150px;
+}
+.photodiary {
+  margin-left: 120px;
+}
+.music {
+  margin-left: 105px;
+}
+.travel {
+  margin-left: 105px;
+  margin-right: 150px;
+}
+.menu-list li :hover,
 .menu-list li :focus {
   color: rgb(3, 169, 244);
 }
@@ -81,7 +80,7 @@ html {
 .section-item:nth-child(2n) {
   margin-right: 0;
 }
-.section-item:nth-last-child(-n +2) {
+.section-item:nth-last-child(-n + 2) {
   margin-bottom: 30px;
 }
 .section-image {
