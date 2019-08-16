@@ -1,0 +1,248 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 1110px;
+  margin-left: 170px;
+  margin-right: 275px;
+}
+header {
+  margin-bottom: 105px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.navigation-list {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 475px;
+}
+.navigation-list li {
+  margin-top: 45px;
+  float: left;
+}
+.navigation-list li :hover,
+.navigation-list li :focus {
+  color: rgb(26, 188, 156);
+}
+.navigation-site-logo {
+  margin-top: 39px;
+  display: inline-block;
+  width: 635px;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "myriadpro-regular";
+  font-weight: 400;
+  color: #555252;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: center;
+}
+.navigation-site-logo::first-letter {
+  font-weight: 400;
+  color: rgb(25, 188, 156);
+}
+.navigation-list a {
+  font-size: 13px;
+  line-height: 17px;
+  font-family: "Open Sans bold", sans-serif;
+  font-weight: 700;
+  color: rgb(15, 1, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Home {
+  margin-left: 8px;
+  margin-right: 35px;
+}
+.About {
+  margin-right: 38px;
+}
+.Page {
+  margin-right: 30px;
+}
+.Shop {
+  margin-right: 27px;
+}
+.Blog {
+  margin-right: 35px;
+}
+h2 {
+  display: block;
+  font-family: "myriadpro-regular", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+}
+.feature {
+  color: #515151;
+  text-transform: uppercase;
+}
+h2::after {
+  display: block;
+  width: 160px;
+  height: 8px;
+  background-color: rgb(25, 188, 156);
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.section-list-featured-products {
+  margin: 0;
+  padding: 0;
+}
+.section-list-item li:hover {
+  background-color: #7fd9c7;
+}
+.section-list-item {
+  float: left;
+  list-style: none;
+  width: 255px;
+  height: 323px;
+}
+.section-list-product {
+  margin: 0;
+  padding: 0;
+  padding-left: 12px;
+  padding-top: 13px;
+  float: left;
+  width: 200px;
+  height: 42px;
+  background-color: #323232;
+  font-family: "myriadpro-regular", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.section-list-item p:hover {
+  background-color: #7fd9c7;
+}
+.section-list-item h3:hover {
+  background-color: #1abc9c;
+}
+
+.section-list-price {
+  margin: 0;
+  padding: 0;
+  padding-left: 12px;
+  padding-top: 12px;
+  float: left;
+  width: 55px;
+  height: 42px;
+  background-color: #8c8c8c;
+  font-family: "myriadpro-regular", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section-list-price {
+  float: right;
+  width: 55px;
+  height: 42px;
+}
+
+.section-list-item:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.section-list-item:not(:nth-last-child(-n + 4)) {
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-family: "myriadpro-regular", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #555252;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 105px;
+  vertical-align: middle;
+}
+h4::after {
+  display: block;
+  width: 160px;
+  height: 8px;
+  background-color: #4ec6ab;
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.section-list-description {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "myriadpro-regular", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #555252;
+}
+.section-list-news {
+  margin: 0;
+  padding: 0;
+}
+.section-list-news li {
+  float: left;
+  width: 350px;
+  height: 495px;
+  list-style: none;
+}
+.section-list-news li:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.section-list-title {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "myriadpro-regular", sans-serif;
+  font-weight: 500;
+  color: #555252;
+}
+.section-list-title::after {
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: #4ec6ab;
+  content: "";
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.bottom-button {
+  color: white;
+  font-size: 16px;
+  line-height: 19px;
+  float: left;
+  border: 1px solid;
+  background-color: #4ec6ab;
+  padding: 15px 33px 15px 37px;
+  cursor: pointer;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  font-family: "myriadpro-regular", sans-serif;
+}
