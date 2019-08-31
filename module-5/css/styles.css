@@ -19,6 +19,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  margin: 0;
+}
 
 .clearfix::after {
   display: table;
@@ -79,7 +82,7 @@ img {
 }
 
 .slider {
-    position: absolute;
+    position: relative;
     margin-bottom: 100px;
     height: 600px;
     }
@@ -154,12 +157,12 @@ img {
     }
     .slider-left {
         left: 0;
-        background-image: url(../img/icons/arrow-left.png)
+        background-image: url(../img/arrow-left.png)
         }
         
         .slider-right {
         right: 0;
-        background-image: url(../img/icons/arrow-right.png)
+        background-image: url(../img/arrow-right.png)
         }
         
         .slider-list-item:hover {
@@ -325,17 +328,17 @@ img {
         }
         
         .icon-like {
-        background-image: url(../img/icons/heart.png);
+        background-image: url(../img/heart.png);
         background-position: center;
         }
         
         .icon-redirect {
-        background-image: url(../img/icons/arrows.png);
+        background-image: url(../img/arrows.png);
         background-position: center;
         }
         
         .icon-clock {
-        background-image: url(../img/icons/clock.png);
+        background-image: url(../img/clock.png);
         background-position: center;
         }
         
@@ -360,7 +363,7 @@ img {
         display: inline-block;
         width: 28px;
         height: 27px;
-        background-image: url(../img/icons/busket.png);
+        background-image: url(../img/busk.png);
         left: 13px;
         top: 11px;
         bottom: 12px;
