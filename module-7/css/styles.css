@@ -1,0 +1,307 @@
+html {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    }
+    
+    .container {
+    margin: 0 auto;
+    width: 940px;
+    }
+    
+    *, 
+    *::before, 
+    *::after {
+    box-sizing: inherit;
+    }
+    
+    img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+    }
+    
+    .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important; 
+    width: 1px !important; 
+    overflow: hidden;
+    }
+
+    @font-face {
+        font-family: "Wisdom - Script";
+        src: url('../fonts/WisdomScriptAJ.woff');
+        }
+    
+    
+    
+    .logo-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 28px;
+    margin-top: 44px;
+    margin-bottom:120px ;
+    padding: 0;
+    }
+    
+    .navigation-list {
+    width: 480px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        src: url('../fonts/montserrat-v14-latin-regular.woff');
+        }
+    @font-face {
+        font-family: "Droid Serif";
+        src: url('../fonts/droidserif.woff');
+        }
+    @font-face {
+        font-family: "Roboto Slab";
+        src: url('../fonts/roboto-slab-v9-latin-regular.woff');
+        }
+    
+    .navigation-site-logo {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Wisdom - Script";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1.3px;
+    color: #fed136;
+    }
+    
+    .navigation-list-item {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #959595;
+    transition: color 200ms linear;
+    }
+    
+    .navigation-list-item:hover {
+    color:#fed136;
+    }
+    
+  
+    
+    h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #222222;
+    display: block;
+    text-align: center;
+    margin-bottom: 19px;
+    }
+    
+    h3 {
+    
+    font-family: "Droid Serif";
+    font-style: italic;
+    color: #777777;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    margin-bottom: 80px;
+    }
+    
+    .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    }
+    
+    .services-list-item {
+    width: 274px;
+    height: 184px;
+    margin-bottom: 120px;
+    cursor: pointer;
+    }
+    
+    .services-list-item-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .services-list-item-description {
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+    letter-spacing: -0.35px;
+    }
+    
+    
+    .services-list-item-header::before {
+    display: block;
+    content: '';
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 68px;
+    height: 67px;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 28px;
+    border: 3px solid #fed136;
+    border-radius: 67px;
+    }
+    
+    .e-commerce::before {
+    background-image: url(../img/icons/Basket.png);
+    }
+    
+    .responsive-web::before {
+    background-image: url(../img/icons/Laptop.png);
+    }
+    
+    .web-security::before {
+    background-image: url(../img/icons/Locked.png);
+    }
+    
+    
+    .contact-us {
+    background-color: #222222;
+    
+    min-height: 676px;
+    width: 100%;
+    position: relative;
+    }
+    
+    .contact-us::before {
+    content: '';
+    background-image: url(../img/Map_Image.png);
+    width: 614px;
+    height: 537px;
+    top: 120px;
+    right: 0;
+    bottom: 19px;
+    position: absolute;
+    opacity: 0.3;
+    }
+    
+    .section-contact-us {
+    min-height: 676px;
+    padding-top: 110px;
+    }
+    
+    .section-contact-us h2 {
+    color: #ffffff;
+    margin: 0;
+    }
+    
+    .section-contact-us h3 {
+    margin-top: 23px;
+    margin-bottom: 76px;
+    }
+    
+    .feedback-parent {
+    width: 455px;
+    height: 210px;
+    }
+    
+    .feedback-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .feedback-form {
+    width: 455px;
+    height: 50px;
+    margin-bottom: 29px;
+    outline: 0px solid;
+    border-radius: 5px;
+    }
+    
+    .your-message {
+    position: relative;
+    width: 455px;
+    height: 210px;
+    resize: none;
+    }
+    
+    
+    .feedback-form::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.35px;
+    color: #bbbbbb;
+    padding: 20px 0px 20px 20px;
+    }
+    
+    .your-message::placeholder {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    }
+    
+    .feedback-button {
+    width: 240px;
+    height: 66px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #fed136;
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .feedback-block input:required:focus:valid,
+    .feedback-block textarea:required:focus:valid {
+    outline-color: green;
+    }
+    .feedback-block input:required:focus:invalid,
+    .feedback-block textarea:required:focus:invalid {
+    outline-color:red;
+    }
+  
+    
+   
+    
+   
