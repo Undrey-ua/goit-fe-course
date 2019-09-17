@@ -165,15 +165,15 @@ h2::after {
 }
 
 .photography::before {
-  background-image: url(../img/icons/Alarm.png);
+  background-image: url(../img/icons/alarm.png);
 }
 
 .web-gesign::before {
-  background-image: url(../img/icons/Line_graph.png);
+  background-image: url(../img/icons/line_graph.png);
 }
 
 .creativity::before {
-  background-image: url(../img/icons/Comp.png);
+  background-image: url(../img/icons/comp.png);
 }
 
 .seo::before {
