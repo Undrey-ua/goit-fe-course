@@ -248,6 +248,11 @@ html {
     margin-bottom: 29px;
     outline: 0px solid;
     border-radius: 5px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
     }
     
     .your-message {
@@ -292,14 +297,21 @@ html {
     cursor: pointer;
     }
     
-    .feedback-block input:required:focus:valid,
+    /*.feedback-block input:required:focus:valid,
     .feedback-block textarea:required:focus:valid {
     outline-color: green;
     }
     .feedback-block input:required:focus:invalid,
     .feedback-block textarea:required:focus:invalid {
-    outline-color:red;
-    }
+    outline-color: red;
+    }*/
+
+    .validation:focus:valid {
+        outline: 3px solid green;
+      }
+      .validation:focus:invalid {
+        outline: 3px solid red;
+      }
   
     
    
