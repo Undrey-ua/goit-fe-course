@@ -165,27 +165,27 @@ h2::after {
 }
 
 .photography::before {
-  background-image: url(../img/icons/alarm.png);
+  background-image: url(../img/icons/Alarm.png);
 }
 
 .web-gesign::before {
-  background-image: url(../img/icons/line_graph.png);
+  background-image: url(../img/icons/Line_graph.png);
 }
 
 .creativity::before {
-  background-image: url(../img/icons/comp.png);
+  background-image: url(../img/icons/Comp.png);
 }
 
 .seo::before {
-  background-image: url(../img/icons/book.png);
+  background-image: url(../img/icons/Book.png);
 }
 
 .css-html::before {
-  background-image: url(../img/icons/home.png);
+  background-image: url(../img/icons/Home.png);
 }
 
 .digital::before {
-  background-image: url(../img/icons/image.png);
+  background-image: url(../img/icons/Image.png);
 }
 
 .services-list-item:nth-last-child(-n + 3) {
